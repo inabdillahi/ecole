@@ -28,9 +28,250 @@
 <section class="content">
   <div class="container-fluid">
 
-    <h5>Ici c'est les conteneue de chaque partie</h5>
-    <br>
-    <img src="{{asset('assets/images/1.jpg')}}" width="200px" alt="" srcset="">
+    <div class="row">
+      <div class="col-12 col-md-3">
+        <div class="info-box bg-teal">
+
+          <div class="info-box-content">
+
+            <span class="info-box-number">Nom : <span class="float-right">Mohamed Abdillahi Nour</span></span>
+            <span class="info-box-text">Fonction : <span class="float-right">Administrations</span></span>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="col-12 col-md-9">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-info"><i class="fas fa-users"></i> </span>
+
+              <div class="info-box-content">
+                <span class="info-box-number">7 533</span>
+
+                <span class="info-box-text">Eleves inscrits</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-success"><i class="fas fa-female"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-number">3 533</span>
+                <span class="info-box-text">Eleves Filles</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-warning"><i class="fas fa-male"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-number">4 000</span>
+                <span class="info-box-text">Eleves Garcons</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="info-box">
+              <span class="info-box-icon bg-danger"><i class="fas fa-chalkboard-teacher"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-number">105</span>
+                <span class="info-box-text">Enseignant</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+      </div>
+
+    </div>
+
+
+
+
+    <div class="row">
+      <div class="col-12 col-md-8">
+        <!-- STACKED BAR CHART -->
+        <div class="card card-light">
+          <div class="card-header">
+            <h3 class="card-title">Statistiques des absences</h3>
+
+            <div class="card-tools">
+              <a href="" class="btn btn-sm btn-danger text-light"><i class="fas fa-eye"></i> Voir plus</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="chart">
+              <canvas id="stackedBarChart"
+                style="min-height: 250px; height: 250px; max-height: 250px; max-width: 100%;"></canvas>
+            </div>
+          </div>
+          <!-- /.card-body -->
+        </div>
+        <!-- /.card -->
+
+      </div>
+
+
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <div class="card-header bg-light">
+            Statistiques des Niveaux
+            <div class="card-tools">
+              <a href="" class="btn btn-sm btn-outline-danger"><i class="fas fa-eye"></i> Voir plus</a>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Niveau</th>
+                    <th>Classes</th>
+                    <th>Nbr d'éléves</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td>6</td>
+                    <td>7 classes</td>
+                    <td>755 éléves</td>
+                  </tr>
+
+                  <tr>
+                    <td>7</td>
+                    <td>4 classes</td>
+                    <td>223 éléve</td>
+                  </tr>
+
+
+                  <tr>
+                    <td>8</td>
+                    <td>7 classes</td>
+                    <td>178 éléve</td>
+                  </tr>
+
+
+                  <tr>
+                    <td>9</td>
+                    <td>2 classes</td>
+                    <td>100 éléve</td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Enseignants
+            <div class="card-tools">
+              <a href="" class="btn btn-sm btn-outline-danger"><i class="fas fa-eye"></i> Voir Liste</a>
+            </div>
+          </div>
+
+          <div class="card-body">
+            <div class="row">
+              <div class="col-6 col-sm-4 mt-2">
+                <div class="badge border border-primary d-flex justify-content-between align-items-center">
+                  <span>Math</span>
+                  <span class="rounded-lg bg-danger p-2">6</span>
+                </div>
+              </div>
+
+
+              <div class="col-6 col-sm-4 mt-2">
+                <div class="badge border border-primary d-flex justify-content-between align-items-center">
+                  <span>Math</span>
+                  <span class="rounded-lg bg-danger p-2">6</span>
+                </div>
+              </div>
+
+
+              <div class="col-6 col-sm-4 mt-2">
+                <div class="badge border border-primary d-flex justify-content-between align-items-center">
+                  <span>Math</span>
+                  <span class="rounded-lg bg-danger p-2">6</span>
+                </div>
+              </div>
+
+
+              <div class="col-6 col-sm-4 mt-2">
+                <div class="badge border border-primary d-flex justify-content-between align-items-center">
+                  <span>Math</span>
+                  <span class="rounded-lg bg-danger p-2">6</span>
+                </div>
+              </div>
+
+
+              <div class="col-6 col-sm-4 mt-2">
+                <div class="badge border border-primary d-flex justify-content-between align-items-center">
+                  <span>Math</span>
+                  <span class="rounded-lg bg-danger p-2">6</span>
+                </div>
+              </div>
+
+
+              <div class="col-6 col-sm-4 mt-2">
+                <div class="badge border border-primary d-flex justify-content-between align-items-center">
+                  <span>Math</span>
+                  <span class="rounded-lg bg-danger p-2">6</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
 </section>

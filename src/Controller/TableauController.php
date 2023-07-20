@@ -14,9 +14,5 @@ class TableauController extends AbstractController
         return $this->render('tableau/tableau.html.twig');
     }
 
-    #[Route('/page', name: 'page')]
-    public function page(): Response
-    {
-        return $this->render('tableau/page.html.twig');
-    }
+    
 }
